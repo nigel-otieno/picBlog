@@ -9,6 +9,8 @@ urlpatterns = [
     url(r'^register$', views.register),
     url(r'^feed$', views.feed),
     url(r'^profile$', views.profile),
+    url(r'^profile_edit$', views.profile_edit),
+    url(r'^logout$', views.logout),
     path('accounts/', include('allauth.urls')),
 
 ]

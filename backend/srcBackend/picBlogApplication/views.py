@@ -16,3 +16,9 @@ def feed(request):
 def profile(request):
     return render(request, 'picBlogApplication/profile.html')
 
+def profile_edit(request):
+    return render(request, 'picBlogApplication/profile_edit.html')
+
+def logout(request):
+    return render(request, 'picBlogApplication/index.html')
+

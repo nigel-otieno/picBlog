@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'picBlogApplication/css/feed.css' %}" />
+
+</head>
+
+<body>
+    <!-- <div class="col-lg-7 col-md-4 col-10"> -->
+    <nav style="padding-left:30%; background-color: #71886e;" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a style="padding-right:10%;" class="navbar-brand text-white" href="#">
+            <img src="https://www.creativefabrica.com/wp-content/uploads/2019/05/Camera-icon-by-demolabid-580x386.jpg"
+                width="35" height="35" class="d-inline-block align-top" alt="" loading="lazy">
+            FOTO
+        </a>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+        <div style="padding-left:0%;" class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#"> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="icons">
+
+        <div class="icon1">
+            <a href="/feed">
+                <img src="https://www.flaticon.com/svg/static/icons/svg/25/25694.svg" width="50%;" height="50;">
+            </a>
+        </div>
+        <div class="icon2">
+            <a href="#">
+                <img src="https://image.flaticon.com/icons/png/512/666/666162.png" width="50%;" height="50;">
+            </a>
+        </div>
+        <div class="icon3">
+            <a href="/profile">
+                <img src="https://image.flaticon.com/icons/png/512/16/16363.png" width="50%;" height="50;">
+            </a>
+        </div>
+        <div class="icon4">
+            <a href="#">
+                <img src="https://image.flaticon.com/icons/png/512/60/60977.png" width="50%;" height="50;">
+            </a>
+        </div>
+        <div class="icon5">
+            <a href="/logout">
+                <img src="https://image.flaticon.com/icons/png/512/56/56805.png" width="50%;" height="50;">
+            </a>
+        </div>
+    </div>
+    <div class="example-container">
+        <div class="example-row">
+            <div class="example-content-main">
+                <h1 style="color: black">Recommended</h1>
+                <div class="example-content-secondary">
+                    <img src="https://image.flaticon.com/icons/png/512/56/56805.png" width="5%;" height="5%;">
+
+                </div>
+
+            </div>
+            <div class="example-content-secondary">Secondary content</div>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+        <br>
+
+        <div class="row text-center text-lg-left">
+
+            <div class="col-lg-12 col-6 offset-md-2">
+                <a href="#" class="d-block mb-4 h-100 ">
+                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300"
+                        width="70%;" height="140%;" alt="">
+    
+                </a>
+            </div>
+            <div class="col-lg-12 col-6 offset-md-2">
+                <a href="#" class="d-block mb-4 h-100 ">
+                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300"
+                        width="70%;" height="140%;" alt="">
+                </a>
+            </div>
+            <div class="col-lg-12 col-6 offset-md-2">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300"
+                        width="70%;" height="140%;" alt="">
+                </a>
+            </div>
+            <div class="col-lg-12 col-6 offset-md-2">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300"
+                        width="70%;" height="140%;" alt="">
+                </a>
+            </div>
+            <div class="col-lg-12 col-6 offset-md-2">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300"
+                        width="70%;" height="140%;" alt="">
+                </a>
+            </div>
+            <div class="col-lg-12 col-6 offset-md-2">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300"
+                        width="70%;" height="140%;" alt="">
+                </a>
+            </div>
+            <div class="col-lg-12 col-6 offset-md-2">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300"
+                        width="70%;" height="140%;" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+
+</html>
