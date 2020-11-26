@@ -20,5 +20,6 @@ def profile_edit(request):
     return render(request, 'picBlogApplication/profile_edit.html')
 
 def logout(request):
+    request.session.clear()
     return render(request, 'picBlogApplication/index.html')
 

@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     "picBlogApplication",
-    #'oauth2_provider',
+    # 'oauth2_provider',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
 
 
-    #django_allauth
+    # django_allauth
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
