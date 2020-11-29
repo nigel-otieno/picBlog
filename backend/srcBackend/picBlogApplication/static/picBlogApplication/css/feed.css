@@ -34,3 +34,10 @@
    float: right;
 
 }
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  margin-right: -382px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  margin-left: -71px;
+}
+

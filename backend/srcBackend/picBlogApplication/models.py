@@ -5,6 +5,7 @@ class User(models.Model):
     last_name = models.CharField(max_length=25)
     email = models.CharField(max_length=25)
     password = models.CharField(max_length=25)
+    user_image = models.ImageField(upload_to='static/PicBlogApplication/images/', blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now_add=True)
 
