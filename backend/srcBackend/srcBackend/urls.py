@@ -19,11 +19,14 @@ from django.conf.urls import url, include
 from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import path
+from rest_framework_jwt.views import obtain_jwt_token
 
 urlpatterns = [    
     url(r'^', include('picBlogApplication.urls')),
     url('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
+    path('token-auth/', obtain_jwt_token),
+    path('picBlogApplication/', include('picBlogApplication.urls'))
 
     #path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
 
